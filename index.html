@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="dude.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sean's portfolio site</title>
+  </head>
+  <link rel="icon" href="/assets/the_dude.ico">
+  <body>
+    <div class="header">
+      <h1>sean's website</h1>
+      <p>
+        <a
+          href="https://drive.google.com/file/d/1RF7YCHab6EYnld4O9RuQcYNRDxd8xnjE/view" target="_blank" rel="noopener noreferrer"
+          >click me</a
+        >
+      </p>
+    </div>
+
+    <div class="navbar">
+      <a
+        href="https://docs.google.com/document/d/1zAdIGEH0vX6aLdOodRUlwM99NRKCRZhUVyXRsG3cqps/edit" target="_blank" rel="noopener noreferrer"
+        >Google Doc of all Games</a
+      >
+
+      <script>
+        var sites = [
+          "https://sarowley.github.io/an-ordinary-typing-game/",
+          "https://sarowley.github.io/rad-crunch/",
+          "https://sarowley.github.io/cmpm-121-demo-3/",
+          "https://sarowley.github.io/cmpm-121-demo-2/",
+          "https://sarowley.github.io/Rocket-Patrol/",
+          "https://sarowley.github.io/Rocket-Patrol-Mods/",
+          "https://sarowley.github.io/Tilemap-tutorial/",
+          "https://escholarship.org/content/qt8j90g74x/supp/rowleysean_54043_3405774_Killed_in_Cold_Blood.html",
+          "https://beanbytt.itch.io/ccc",
+          "https://sarowley.github.io/rune_game/",
+          "https://milessmarsh.github.io/Guarden/",
+          "https://milessmarsh.github.io/ARTG120Game1/",
+          "https://cheeptune.itch.io/stacked-cats",
+        ];
+
+        function randomSite() {
+          var i = parseInt(Math.random() * sites.length);
+          location.href = sites[i];
+        }
+      </script>
+
+      <a href="#" onclick="randomSite();" target="_blank" rel="noopener noreferrer">Play a Random Game</a>
+      <!-- 
+        got the random website chooser code from 
+    https://stackoverflow.com/questions/37751759/generating-a-random-link-through-javascript-html
+-->
+
+      <a
+        href="mailto:seanrowley888@gmail.com?Subject=I%20would%20like%20nothing%20more%20than%20to%20give%20you%20the%20highest%20paying%20job%20possible%20:)"
+        target="_top"
+        >Send Mail</a
+      >
+      <a href="https://www.youtube.com/watch?v=ot8JzQtHgGM" target="_blank" rel="noopener noreferrer" class="right"
+        >Favorite Youtube Video</a
+      >
+    </div>
+
+    <div class="row">
+      <div class="side">
+        <h2>About Me</h2>
+        <img src="assets/zelda.jpg" alt="me" style="width:95px;height:167px;">
+        <p>Hi, I'm Sean Rowley. I'm a current fourth year Computer Science: Game Design Major attending UC Santa Cruz.</p>
+        <h3>Additional Info</h3>
+        <p>My favorite color is purple, my favorite food is tofu, and I really enjoy making terrible typing games.</p>
+        <img src="assets/shrek.gif" alt="shrek" style="width:180px;height:165px;">
+        <br />
+        <img src="assets/lead.WEBP" alt="shrek" style="width:230px;height:165px;">
+      </div>
+      <div class="main">
+        <h2>favorite game #1: an ordinary typing game</h2>
+        <img src="assets/typing_game.png" alt="me" style="width:480px;height:228px;">
+        <br>
+        <a href="https://sarowley.github.io/an-ordinary-typing-game/" target="_blank" rel="noopener noreferrer">Link to Game</a>
+        <p>
+         an ordinary typing game is a game where the player attempts to type the given phrases, only for the game itself to prevent the player from reaching the end. I made it in javascript and html, and I'm really proud of how it turned out.
+        </p>
+        <br />
+        <h2>favorite game #2: Rad Crunch</h2>
+        <img src="assets/rad_game.png" alt="me" style="width:480px;height:228px;"> <br>
+        <a href="https://sarowley.github.io/rad-crunch/" target="_blank" rel="noopener noreferrer">Link to Game</a>
+
+        <p>
+          Rad Crunch is an arcade shooter game where the player shoots at cubes to keep the walls from closing in, while also dodging bullets shot from randomly spawning turrets. The game was made in javascript using the crisp game engine, and given how constrained crisp is, with limited graphics and only allowing "one button games," I'm also really proud of how this one came out.
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+        <a
+        href="https://docs.google.com/document/d/1H7eaLK3gjb56C37KVjfq4KYgUiy-soAX/edit?usp=drive_link&ouid=115827374167747780705&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer"
+        >Resume</a
+      >
+       // 
+      <a
+      href="https://beanbytt.itch.io/" target="_blank" rel="noopener noreferrer"
+      >itch</a
+    >
+      //  
+    <a
+    href="https://www.linkedin.com/in/sean-rowley-a940a724b/" target="_blank" rel="noopener noreferrer"
+    >linkedin</a
+  >
+    //  
+  <a
+  href="https://github.com/sarowley?tab=repositories" target="_blank" rel="noopener noreferrer"
+  >github</a
+>
+    </div>
+  </body>
+</html>
+
+<!-- 
+the tutorial i followed is this
+https://www.w3schools.com/howto/howto_make_a_website.asp
+-->
