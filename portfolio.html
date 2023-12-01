@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="dude.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sean's portfolio site</title>
+  </head>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
+  <body>
+    <div class="header">
+      <h1>sean's website</h1>
+      <p>
+        <a href="assets/game_dev.mp4" target="_blank" rel="noopener noreferrer"
+          >click me</a
+        >
+      </p>
+    </div>
+
+    <div class="navbar">
+      <a href="index.html">Main Page</a>
+
+      <script>
+        var sites = [
+          "https://sarowley.github.io/an-ordinary-typing-game/",
+          "https://sarowley.github.io/rad-crunch/",
+          "https://sarowley.github.io/cmpm-121-demo-3/",
+          "https://sarowley.github.io/cmpm-121-demo-2/",
+          "https://sarowley.github.io/Rocket-Patrol/",
+          "https://sarowley.github.io/Rocket-Patrol-Mods/",
+          "https://sarowley.github.io/Tilemap-tutorial/",
+          "https://escholarship.org/content/qt8j90g74x/supp/rowleysean_54043_3405774_Killed_in_Cold_Blood.html",
+          "https://beanbytt.itch.io/ccc",
+          "https://sarowley.github.io/rune_game/",
+          "https://milessmarsh.github.io/Guarden/",
+          "https://cheeptune.itch.io/stacked-cats",
+        ];
+
+        function randomSite() {
+          var i = parseInt(Math.random() * sites.length);
+          location.href = sites[i];
+        }
+      </script>
+
+      <a
+        href="#"
+        onclick="randomSite();"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Play a Random Game</a
+      >
+      <!-- 
+        got the random website chooser code from 
+    https://stackoverflow.com/questions/37751759/generating-a-random-link-through-javascript-html
+-->
+
+      <a
+        href="mailto:seanrowley888@gmail.com?Subject=I%20would%20like%20nothing%20more%20than%20to%20give%20you%20the%20highest%20paying%20job%20possible%20:)"
+        target="_top"
+        >Send Mail</a
+      >
+      <a href="favorite_games.html">Favorite Games & More</a>
+      <a
+        href="https://www.youtube.com/playlist?list=PLQOlYhEwWfYliYWI7GpFjkAqn92Ko-lhr"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="right"
+        >Favorite Youtube Videos</a
+      >
+    </div>
+
+    <div class="row">
+      <div class="side">
+        <h2>About Me</h2>
+        <img
+          src="assets/zelda.jpg"
+          alt="me"
+          style="width: 95px; height: 167px"
+        />
+        <p>
+          Hi, I'm Sean Rowley. I'm a current fourth year Computer Science: Game
+          Design Major attending UC Santa Cruz.
+        </p>
+        <h3>Additional Info</h3>
+        <p>
+          My favorite color is purple, my favorite food is tofu, and I really
+          enjoy making typing games.
+        </p>
+        <img
+          src="assets/shrek.gif"
+          alt="shrek gif that is no longer a shrek gif"
+          style="width: 180px; height: 165px"
+        />
+        <br />
+        <img
+          src="assets/lead.WEBP"
+          alt="shrek"
+          style="width: 230px; height: 165px"
+        />
+        <br />
+        <img
+          src="assets/fall.gif"
+          alt="fall"
+          style="width: 230px; height: 180px"
+        />
+        <br />
+        <img
+          src="assets/adv.gif"
+          alt="fall"
+          style="width: 230px; height: 150px"
+        />
+        <br />
+        <img
+          src="assets/owl.JPEG"
+          alt="fall"
+          style="width: 230px; height: 160px"
+        />
+        <br />
+        <img
+          src="assets/jerboa.gif"
+          alt="fall"
+          style="width: 230px; height: 160px"
+        />
+      </div>
+      <div class="main">
+        <h1>Games I've Made:</h1>
+        <h2>Solo:</h2>
+        <h3>
+          an ordinary typing game (
+          <a
+            href="https://sarowley.github.io/an-ordinary-typing-game/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Game</a
+          >
+          |
+          <a
+            href="https://github.com/sarowley/an-ordinary-typing-game"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Code</a
+          >
+          |
+          <a
+            href="https://www.youtube.com/watch?v=-qjJJLzxL8M"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Gameplay Video</a
+          >
+          )
+        </h3>
+        <img
+          src="assets/typing_game.png"
+          alt="me"
+          style="width: 480px; height: 228px"
+        />
+        <p><b>Description:</b> A typing game where the typing based controls change as the player progresses. It was made in Javascript.</p>
+        <h3>
+          Rad Crunch (
+          <a
+            href="https://sarowley.github.io/rad-crunch/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Game</a
+          >
+          |
+          <a
+            href="https://github.com/sarowley/rad-crunch"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Code</a
+          >
+          |
+          <a
+            href="https://drive.google.com/file/d/1kImnOBWlPP-IKXuxBiLrLZLtb8WOS5P2/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Gameplay Video</a
+          >
+          )
+        </h3>
+        <img
+          src="assets/rad_game.png"
+          alt="rad"
+          style="width: 480px; height: 228px"
+        />
+        <p><b>Description:</b> An arcade shooter mini-game made in the Crisp Game Engine.</p>
+        <h3>
+          Endless-Runner (
+          <a
+            href="https://sarowley.github.io/Endless-Runner/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Game</a
+          >
+          |
+          <a
+            href="https://github.com/sarowley/Endless-Runner"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Code</a
+          >
+          |
+          <a
+            href="https://drive.google.com/file/d/1GRs5hso4ZB1MI1ZeSSm8yefp92EJnKH3/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Gameplay Video</a
+          >
+          )
+        </h3>
+        <img
+          src="assets/endless_game.png"
+          alt="endless"
+          style="width: 480px; height: 228px"
+        />
+        <p><b>Description:</b> An endless runner game where the player controls movement by typing words. It was made in Phaser.</p>
+        <h3>
+          Geocache Game (
+          <a
+            href="https://sarowley.github.io/cmpm-121-demo-3/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Game</a
+          >
+          |
+          <a
+            href="https://github.com/sarowley/cmpm-121-demo-3"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Code</a
+          >
+          |
+          <a
+            href="https://drive.google.com/file/d/1j9IaRajSZUR2flL5lIySPB2dXjaHrppN/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Gameplay Video</a
+          >
+          )
+        </h3>
+        <img
+          src="assets/geocache_game.png"
+          alt="geocache"
+          style="width: 480px; height: 228px"
+        />
+        <p><b>Description:</b> A geocache game akin to Pokemon Go, where the user moves around in real life to obtain and place tokens. It was made in Typescript.
+        <br> <b>Notes:</b> The video only shows button based movement because I didn’t want to record me walking around with my laptop or phone.</p>
+        <h3>
+          Google Offline Dinosaur Run Clone (
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >Game</a
+          >
+          |
+          <a
+            href="https://github.com/sarowley/cmpm-121-section-2"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Code</a
+          >
+          |
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >Gameplay Video</a
+          >
+          )
+        </h3>
+        <img
+          src="assets/dino_game.png"
+          alt="Dino Image"
+          style="width: 480px; height: 228px"
+        />
+        <p><b>Description:</b></p>
+        <h3>
+          Canvas Paint Game (
+          <a
+            href="https://sarowley.github.io/cmpm-121-demo-2/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Game</a
+          >
+          |
+          <a
+            href="https://github.com/sarowley/cmpm-121-demo-2"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Code</a
+          >
+          |
+          <a
+            href="https://drive.google.com/file/d/1hSWRAMXdetwalwQw4IekaEnNBBDkzJYx/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Gameplay Video</a
+          >
+          )
+        </h3>
+        <img
+          src="assets/canvas_game.png"
+          alt="canvas"
+          style="width: 480px; height: 228px"
+        />
+        <p><b>Description:</b></p>
+        <h3>
+          Rocket-Patrol (
+          <a
+            href="https://sarowley.github.io/Rocket-Patrol/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Game</a
+          >
+          |
+          <a
+            href="https://github.com/sarowley/Rocket-Patrol"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Code</a
+          >
+          |
+          <a
+            href="https://drive.google.com/file/d/1bkgP8OAcbJhhq8mecFDfIz9UKYgN3eL9/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Gameplay Video</a
+          >
+          )
+        </h3>
+        <img
+          src="assets/rocket_game.png"
+          alt="rocket"
+          style="width: 480px; height: 228px"
+        />
+        <p><b>Description:</b></p>
+        <h3>
+          Rocket-Patrol-Mods (
+          <a
+            href="https://sarowley.github.io/Rocket-Patrol-Mods/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Game</a
+          >
+          |
+          <a
+            href="https://github.com/sarowley/Rocket-Patrol-Mods"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Code</a
+          >
+          |
+          <a
+            href="https://drive.google.com/file/d/1MLcD1NT1UKU7vH4yTMLtwcT3Avl6TnHR/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Gameplay Video</a
+          >
+          )
+        </h3>
+        <img
+          src="assets/mods_game.png"
+          alt="mods"
+          style="width: 480px; height: 228px"
+        />
+        <p><b>Description:</b></p>
+        <h3>
+          Wordle Clone (
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >Game</a
+          >
+          |
+          <a
+            href="https://drive.google.com/drive/folders/1CiC6WrWJlZpicD-DjCQ9_nRnXsrNwrOx"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Code</a
+          >
+          |
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >Gameplay Video</a
+          >
+          )
+        </h3>
+        <img
+          src="assets/wordle_game.png"
+          alt="Wordle Image"
+          style="width: 480px; height: 228px"
+        />
+        <p><b>Description:</b></p>
+        <h3>
+          Tilemap Tutorial (
+          <a
+            href="https://sarowley.github.io/Tilemap-tutorial/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Game</a
+          >
+          |
+          <a
+            href="https://github.com/sarowley/Tilemap-tutorial"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Code</a
+          >
+          |
+          <a
+            href="https://drive.google.com/file/d/1Vmd1bezE4uQU6SdJcZRHN5NNmK484qZY/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Gameplay Video</a
+          >
+          )
+        </h3>
+        <img
+          src="assets/tilemap_game.png"
+          alt="tilemap"
+          style="width: 480px; height: 228px"
+        />
+        <p><b>Description:</b></p>
+        <h3>
+          Killed in Cold Blood (
+          <a
+            href="https://escholarship.org/content/qt8j90g74x/supp/rowleysean_54043_3405774_Killed_in_Cold_Blood.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Game</a
+          >
+          |
+          <a
+            href="https://drive.google.com/file/d/1uXsUScc37Xg2pRZEkbdYRTvVgst9rZsF/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Gameplay Video</a
+          >
+          )
+        </h3>
+        <img
+          src="assets/killed_game.png"
+          alt="killed"
+          style="width: 480px; height: 228px"
+        />
+        <p><b>Description:</b></p>
+        <h3>
+          Wizards & Lizards (
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >Cards</a
+          >
+          |
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >Rules</a
+          >
+          )
+        </h3>
+        <img
+        src="assets/wizards_game.png"
+        alt="Wizard Image"
+        style="width: 480px; height: 228px"
+      />
+        <p><b>Description:</b></p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <a
+        href="https://steamcommunity.com/id/nintendo_game_boy_advance_sp/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >steam account</a
+      >
+      //
+      <a
+        href="https://beanbytt.itch.io/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >itch</a
+      >
+      //
+      <a
+        href="https://github.com/sarowley?tab=repositories"
+        target="_blank"
+        rel="noopener noreferrer"
+        >github</a
+      >
+      //
+      <a
+        href="https://www.linkedin.com/in/sean-rowley-a940a724b/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >linkedin</a
+      >
+      //
+      <a
+        href="https://docs.google.com/document/d/1H7eaLK3gjb56C37KVjfq4KYgUiy-soAX/edit?usp=drive_link&ouid=115827374167747780705&rtpof=true&sd=true"
+        target="_blank"
+        rel="noopener noreferrer"
+        >resume</a
+      >
+      //
+      <a
+        href="https://github.com/sarowley/webbed_site"
+        target="_blank"
+        rel="noopener noreferrer"
+        >code for website</a
+      >
+    </div>
+  </body>
+</html>
+
+<!-- 
+the tutorial i followed is this
+https://www.w3schools.com/howto/howto_make_a_website.asp
+-->
