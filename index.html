@@ -1,157 +1,113 @@
+<!-- A huge and massive thank you to David "Rez" Graham for absolutely tearing apart my website and giving me a million useful pointers on how to make a professional portfolio-->
+<!-- A lot of what this website has in it is just based on what Rez showed me with his website https://bleachkitty.com/ -->
+
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="stylesheet" href="dude.css" />
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>sean's portfolio site</title>
+    <title>Sean Rowley</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
   <body>
+    <!-- This is the header -->
     <div class="header">
-      <h1>sean's website</h1>
-      <p>
-        <a
-          href="assets/game_dev.mp4"
-          target="_blank"
-          rel="noopener noreferrer"
-          >click me</a
-        >
-      </p>
+      <h1>Sean Rowley</h1>
+      <h2 style="font-size: 15px;">Contact: seanrowley888@gmail.com</h2>
     </div>
 
-    <div class="navbar">
-
-      <a
-        href="portfolio.html"
-        >Portfolio</a
-      >
-
-      <script>
-        var sites = [
-          "https://sarowley.github.io/an-ordinary-typing-game/",
-          "https://sarowley.github.io/rad-crunch/",
-          "https://sarowley.github.io/cmpm-121-demo-3/",
-          "https://sarowley.github.io/cmpm-121-demo-2/",
-          "https://sarowley.github.io/Rocket-Patrol/",
-          "https://sarowley.github.io/Rocket-Patrol-Mods/",
-          "https://sarowley.github.io/Tilemap-tutorial/",
-          "https://escholarship.org/content/qt8j90g74x/supp/rowleysean_54043_3405774_Killed_in_Cold_Blood.html",
-           "https://milessmarsh.github.io/RearWindowGame/",
-          "https://beanbytt.itch.io/ccc",
-          "https://sarowley.github.io/rune_game/",
-          "https://sarowley.github.io/Endless-Runner/",
-          "https://cheeptune.itch.io/stacked-cats",
-          "https://clxrffdman.github.io/cmpm121-F-garden/",
-        ];
-
-        function randomSite() {
-          var i = parseInt(Math.random() * sites.length);
-          location.href = sites[i];
-        }
-      </script>
-
-      <a
-        href="#"
-        onclick="randomSite();"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Play a Random Game</a
-      >
-      <!-- 
-        got the random website chooser code from 
-    https://stackoverflow.com/questions/37751759/generating-a-random-link-through-javascript-html
--->
-
-      <a
-        href="mailto:seanrowley888@gmail.com?Subject=I%20would%20like%20nothing%20more%20than%20to%20give%20you%20the%20highest%20paying%20job%20possible%20:)"
-        target="_top"
-        >Send Mail</a
-      >
-      <a
-        href="favorite_games.html"
-        >Favorite Games & More</a
-      >
-      <a
-        href="https://www.youtube.com/playlist?list=PLQOlYhEwWfYliYWI7GpFjkAqn92Ko-lhr"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="right"
-        >Favorite Youtube Videos</a
-      >
-    </div>
+    <!-- Archipelago -->
 
     <div class="row">
-      <div class="side">
-        <h2>About Me</h2>
-        <img
-          src="assets/zelda.jpg"
-          alt="me"
-          style="width: 95px; height: 167px"
-        />
-        <p>
-          Hi, I'm Sean Rowley. I'm a current fourth year Computer Science: Game
-          Design Major attending UC Santa Cruz.
-        </p>
-        <h3>Additional Info</h3>
-        <p>
-          My favorite color is purple, my favorite food is tofu, and I really
-          enjoy making typing games.
-        </p>
-        <img
-          src="assets/shrek.gif"
-          alt="shrek gif that is no longer a shrek gif"
-          style="width: 180px; height: 165px"
-        />
-        <br />
-        <img
-          src="assets/lead.WEBP"
-          alt="shrek"
-          style="width: 230px; height: 165px"
-        />
-      </div>
-      <div class="main">
-        <h2>Favorite game that I made #1: an ordinary typing game</h2>
-        <img
-          src="assets/typing_game.png"
-          alt="me"
-          style="width: 480px; height: 228px"
-        />
-        <br />
-        <a
-          href="https://sarowley.github.io/an-ordinary-typing-game/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Link to Game</a
-        >
-        <p>
-          "an ordinary typing game" is a game where the player attempts to type
-          the given phrases, only for the game itself to prevent the player from
-          reaching the end. It was made in javascript and html.
-        </p>
-        <br />
-        <h2>Favorite game that I made #2: Rad Crunch</h2>
-        <img
-          src="assets/rad_game.png"
-          alt="me"
-          style="width: 480px; height: 228px"
-        />
-        <br />
-        <a
-          href="https://sarowley.github.io/rad-crunch/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Link to Game</a
-        >
-
-        <p>
-          Rad Crunch is an arcade shooter game where the player shoots at cubes
-          to keep the walls from closing in, while also dodging bullets shot
-          from randomly spawning turrets. The game was made in Javascript using
-          the crisp game engine.
-        </p>
+      <div class="center">
+        <h1 style="color: white; text-align: center">Archipelago</h1>
+        <a href="archipelago.html">
+          <img
+            src="pictures/arch_header.jpg"
+            alt="Archipelago"
+            style="width: 100%"
+          />
+        </a>
       </div>
     </div>
+
+    <!-- Rad Crunch -->
+
+    <div class="row">
+      <div class="column">
+        <h1 style="color: white; text-align: center; font-size: 30px">
+          Rad Crunch
+        </h1>
+        <a href="rad_crunch.html">
+          <img
+            src="pictures/rad_crunch_header.png"
+            alt="Rad Crunch"
+            style="width: 100%"
+          />
+        </a>
+      </div>
+
+      <!-- Geocache Game -->
+
+      <div class="column">
+        <h1 style="color: white; text-align: center; font-size: 30px">
+          Geocache Game
+        </h1>
+        <a href="geocache.html">
+          <img
+            src="pictures/geocache_header.png"
+            alt="Geocache"
+            style="width: 100%"
+          />
+        </a>
+      </div>
+
+      <!-- Runeomancy -->
+
+      <div class="column">
+        <h1 style="color: white; text-align: center; font-size: 30px">
+          Runeomancy
+        </h1>
+        <a href="runeomancy.html">
+          <img
+            src="pictures/runeomancy_header.png"
+            alt="Runeomancy"
+            style="width: 100%"
+          />
+        </a>
+      </div>
+    </div>
+
+    <!-- Valheim Board game -->
+
+    <div class="row">
+      <div class="center1">
+        <h1 style="color: white; text-align: center; font-size: 30px">
+          Valheim Board Game
+        </h1>
+        <a href="valheim.html">
+          <img
+            src="pictures/valhiem_header.png"
+            alt="Valheim Board Game"
+            style="width: 100%"
+          />
+        </a>
+      </div>
+    </div>
+
+    <!-- Coding Projects -->
+
+    <div class="row">
+      <div class="center1">
+        <a href="coding_projects.html">
+            <h1 style=" text-align: center; font-size: 30px">
+                <u>Coding Projects and Demos</u>
+              </h1>
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer is here -->
 
     <div class="footer">
       <a
@@ -183,13 +139,6 @@
       >
       //
       <a
-        href="https://docs.google.com/document/d/1H7eaLK3gjb56C37KVjfq4KYgUiy-soAX/edit?usp=drive_link&ouid=115827374167747780705&rtpof=true&sd=true"
-        target="_blank"
-        rel="noopener noreferrer"
-        >resume</a
-      >
-      //
-      <a
         href="https://github.com/sarowley/webbed_site"
         target="_blank"
         rel="noopener noreferrer"
@@ -198,8 +147,3 @@
     </div>
   </body>
 </html>
-
-<!-- 
-the tutorial i followed is this
-https://www.w3schools.com/howto/howto_make_a_website.asp
--->
